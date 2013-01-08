@@ -12,7 +12,7 @@ slide jquery plugin
     
 ###option
 
-    width       : 320,  // slide width
-    height      : 240,  // slide height
-    bareaHeight : 68,   // button area height
+    width       : 320   // slide width
+    height      : 240   // slide height
+    bareaHeight : 68    // button area height
     fontSize    : 18    // button area font size
