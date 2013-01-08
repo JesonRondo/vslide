@@ -1,0 +1,10 @@
+.vslide{position:relative;overflow:hidden;}
+.vslide .mask{position:absolute;top:0;left:0;background:#000;z-index:-1;}
+.vslide .mask.show{position:absolute;top:0;left:0;background:#000;z-index:3;}
+.vslide .imglink{position:absolute;top:0;left:0;}
+.vslide ul{position:absolute;bottom:0;left:0;}
+.vslide ul li{float:left;border-right:1px solid #f1edde;}
+.vslide ul li a{display:block;text-align:center;text-decoration:none;background:#fdfcf6;color:#2c2c2c;border-top:6px solid #0064a6;padding-bottom:6px;}
+.vslide ul li a.cur{background:#fff7e0;color:#f38900;border-top:6px solid #e8b334;}
+.vslide .slider{z-index:1;}
+.vslide .slider.curdiv{z-index:2;}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>vslide demo</title>
+    <link rel="stylesheet" href="http://travisup.com/public/default/css/reset.css" />
+    <link rel="stylesheet" href="css/jquery.vslide.css" />
+</head>
+<body style="background:#000;">
+    <!-- vslide start -->
+    <div class="vslide" id="vslide">
+        <a href="javascript:void(0);"><img src="images/b1.jpg" alt="" /></a>
+        <a href="javascript:void(0);"><img src="images/b2.jpg" alt="" /></a>
+        <a href="javascript:void(0);"><img src="images/b3.jpg" alt="" /></a>
+        <ul>
+            <li><a href="javascript:void(0);">Botton1</a></li>
+            <li><a href="javascript:void(0);">Botton2</a></li>
+            <li><a href="javascript:void(0);">Botton3</a></li>
+        </ul>
+    </div>
+    <!-- vslide end -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.vslide.js"></script>
+    <script type="text/javascript">
+        $('#vslide').vslide({
+            width: 960,
+            height: 344
+        });
+    </script>
+</body>
+</html>
