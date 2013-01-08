@@ -1,0 +1,4 @@
+vslide
+======
+
+slide jQuery plugin
